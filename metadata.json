@@ -1,0 +1,6 @@
+{
+  "name": "ระบบจองห้องประชุมโรงเรียน",
+  "description": "ระบบจองห้องประชุมและห้องโสตทัศนศึกษาสำหรับโรงเรียน แสดงตารางรายวัน สถิติรายสัปดาห์ และตรวจการชนเวลาอัตโนมัติ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

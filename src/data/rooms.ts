@@ -1,0 +1,40 @@
+import { Room } from '../types';
+
+export const ROOMS: Room[] = [
+  {
+    id: 'room-1',
+    name: 'ห้องประชุมใหญ่',
+    capacity: 150,
+    badgeBg: 'bg-[#004d40]/10 dark:bg-teal-950/80',
+    badgeText: 'text-[#004d40] dark:text-teal-300',
+    borderColor: 'border-[#004d40]/30 dark:border-teal-700',
+    accentColor: 'teal',
+    headerBg: 'bg-[#004d40] text-white',
+    description: 'ห้องประชุมขนาดใหญ่ รองรับงานประชุมโรงเรียน สัมมนาครู งานปฐมนิเทศ และกิจกรรมรวมนักเรียน',
+    amenities: ['เวทีและโพเดียม', 'โปรเจกเตอร์ 4K จอใหญ่', 'เครื่องเสียง & ไมค์ไร้สาย 4 ตัว', 'แอร์ 4 เครื่อง'],
+  },
+  {
+    id: 'room-2',
+    name: 'ห้องประชุมเล็ก',
+    capacity: 25,
+    badgeBg: 'bg-[#00897b]/10 dark:bg-teal-950/80',
+    badgeText: 'text-[#00897b] dark:text-teal-300',
+    borderColor: 'border-[#00897b]/30 dark:border-teal-700',
+    accentColor: 'cyan',
+    headerBg: 'bg-[#00897b] text-white',
+    description: 'ห้องประชุมย่อย เหมาะสำหรับประชุมกลุ่มสาระฯ ประชุมฝ่ายบริหาร และการหารือกลุ่มเล็ก',
+    amenities: ['สมาร์ททีวี 75 นิ้ว', 'ไวท์บอร์ดกระจก', 'โต๊ะประชุมทรงกว้าง', 'ระบบ Video Conference'],
+  },
+  {
+    id: 'room-3',
+    name: 'ห้องโสตทัศนศึกษา',
+    capacity: 60,
+    badgeBg: 'bg-[#4db6ac]/15 dark:bg-teal-950/80',
+    badgeText: 'text-[#00695c] dark:text-teal-300',
+    borderColor: 'border-[#4db6ac]/40 dark:border-teal-700',
+    accentColor: 'emerald',
+    headerBg: 'bg-[#00695c] text-white',
+    description: 'ห้องฉายสื่อโสตทัศนศึกษา สำหรับการเรียนการสอนมัลติมีเดีย การอบรมเชิงปฏิบัติการ และการเปิดสื่อวิดีโอ',
+    amenities: ['ระบบเสียงรอบทิศทาง', 'โปรเจกเตอร์ความละเอียดสูง', 'เก้าอี้เบาะปรับระดับ', 'ไฟสตูดิโอปรับแสงได้'],
+  },
+];

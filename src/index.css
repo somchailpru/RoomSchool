@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Hide scrollbars for clean tab overflow */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Print specific styles for A4 Report Output */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+    font-size: 12pt;
+  }
+
+  header,
+  nav,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .page-break {
+    page-break-after: always;
+  }
+}
+
+.print-only {
+  display: none;
+}
